@@ -16,11 +16,11 @@ export default function Home() {
       <Hero />
       <Services />
       <WhyJovive />
+      <TmsSpotlight />
+      <Locations />
       <TrustBar />
       <Providers />
       <BookingCalendar />
-      <TmsSpotlight />
-      <Locations />
       <FAQ />
       <InquiryForm />
       <FinalCTA />

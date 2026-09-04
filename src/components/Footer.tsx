@@ -4,7 +4,6 @@ import {
   PHONE_HREF,
   PHONE_NUMBER,
   PRIVACY_LINKS,
-  SITE_URL,
 } from "@/lib/constants";
 
 export default function Footer() {
@@ -40,7 +39,7 @@ export default function Footer() {
 
         <div>
           <p className="font-display text-lg text-white">Privacy & Consent</p>
-          <nav className="mt-3 flex flex-col gap-2 text-sm text-ink-200">
+          <nav className="mt-3 flex flex-col gap-2 text-sm text-ink-200" aria-label="Privacy and consent">
             {PRIVACY_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -52,14 +51,6 @@ export default function Footer() {
                 {link.label}
               </a>
             ))}
-            <a
-              href={SITE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-brand-300"
-            >
-              Main Website
-            </a>
           </nav>
         </div>
       </div>

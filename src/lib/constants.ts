@@ -197,6 +197,10 @@ export const PRIVACY_LINKS = [
     href: "https://jovivepsychiatry.com/good-faith-estimate-notice/",
   },
   {
+    label: "Website Privacy Policy",
+    href: "https://jovivepsychiatry.com/website-privacy-policy",
+  },
+  {
     label: "CCPA Privacy Policy",
     href: "https://jovivepsychiatry.com/ccpa-privacy-policy",
   },
