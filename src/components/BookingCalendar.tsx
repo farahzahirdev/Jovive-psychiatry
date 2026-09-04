@@ -54,7 +54,7 @@ export default function BookingCalendar() {
   return (
     <section
       id={BOOKING_SECTION_ID}
-      className="jv-section bg-gradient-to-b from-brand-50 to-white"
+      className="jv-section bg-brand-50"
     >
       <div className="container-main">
         <div className="embed-layout">

@@ -17,10 +17,10 @@ export default function Home() {
       <Services />
       <WhyJovive />
       <TmsSpotlight />
-      <Locations />
       <TrustBar />
       <Providers />
       <BookingCalendar />
+      <Locations />
       <FAQ />
       <InquiryForm />
       <FinalCTA />
