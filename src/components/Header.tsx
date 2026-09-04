@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
   BOOKING_SECTION_ID,
@@ -48,7 +49,7 @@ export default function Header() {
     <>
       <header className={`jv-header ${open ? "z-[70]" : ""}`}>
         <div className="jv-header-inner">
-          <a href="/" className="relative z-[80] shrink-0" onClick={close}>
+          <Link href="/" className="relative z-[80] shrink-0" onClick={close}>
             <Image
               src={LOGO_URL}
               alt="Jovive Psychiatry"
@@ -57,7 +58,7 @@ export default function Header() {
               className="h-8 w-auto sm:h-9"
               priority
             />
-          </a>
+          </Link>
 
           <nav className="jv-header-nav" aria-label="Main">
             {NAV_ITEMS.map((item) => (
