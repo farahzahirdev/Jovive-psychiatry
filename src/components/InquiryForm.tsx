@@ -74,7 +74,7 @@ export default function InquiryForm() {
               Prefer to talk first? Call our team directly.
             </p>
 
-            <ul className="contact-list text-left">
+            <ul className="contact-list text-center lg:text-left">
               <li>
                 <a href={PHONE_HREF} className="contact-item group">
                   <span className="contact-icon">

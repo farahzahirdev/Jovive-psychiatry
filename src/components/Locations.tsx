@@ -23,7 +23,7 @@ export default function Locations() {
           {LOCATIONS.map((location, index) => (
             <div
               key={location.name}
-              className="jv-fade-up border-t-2 border-brand-500 pt-6"
+              className="jv-fade-up border-t-2 border-brand-500 pt-6 text-center md:text-left"
               style={{ animationDelay: `${index * 70}ms` }}
             >
               <h3 className="text-2xl">{location.name}</h3>

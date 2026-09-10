@@ -18,7 +18,7 @@ export default function TmsSpotlight() {
             />
           </div>
 
-          <div className="jv-fade-up order-1 lg:order-2">
+          <div className="jv-fade-up order-1 text-center lg:order-2 lg:text-left">
             <p className="section-eyebrow !text-brand-300">BrainsWay TMS</p>
             <h2 id="tms-heading" className="mt-3 text-3xl text-white sm:text-4xl lg:text-[2.75rem]">
               A non-invasive option when depression needs a new path
@@ -35,7 +35,7 @@ export default function TmsSpotlight() {
               evaluation, with no pressure and no guarantees of outcomes.
             </p>
 
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap lg:justify-start">
               <QualifyButton variant="accent" />
               <CallButton variant="hero" />
             </div>

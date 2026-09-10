@@ -93,13 +93,13 @@ export default function Providers() {
                 </div>
 
                 <div
-                  className={`max-w-xl flex-1 space-y-3 ${
-                    imageFirst ? "text-left" : "text-right"
+                  className={`max-w-xl flex-1 space-y-3 text-center ${
+                    imageFirst ? "lg:text-left" : "lg:text-right"
                   }`}
                 >
                   <div
-                    className={`h-px w-12 bg-brand-400 ${
-                      imageFirst ? "" : "ml-auto"
+                    className={`mx-auto h-px w-12 bg-brand-400 ${
+                      imageFirst ? "lg:mx-0" : "lg:ml-auto lg:mr-0"
                     }`}
                     aria-hidden
                   />

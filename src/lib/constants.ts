@@ -61,24 +61,24 @@ export const SERVICES = [
     title: "TMS Therapy",
     benefit:
       "Non-invasive BrainsWay TMS for depression and related conditions, without systemic medication side effects.",
-    href: `#${FORM_SECTION_ID}`,
-    cta: "Find out if you Qualify",
+    href: `#${BOOKING_SECTION_ID}`,
+    cta: "Book your Free Consultation",
   },
   {
     id: "medication",
     title: "Medication Management",
     benefit:
       "Ongoing, personalized psychiatric medication care with a dedicated provider who knows your history.",
-    href: `#${BOOKING_SECTION_ID}`,
-    cta: "Book your Free Consultation",
+    href: `#${FORM_SECTION_ID}`,
+    cta: "Find out if you Qualify",
   },
   {
     id: "therapy",
     title: "Therapy & Counseling",
     benefit:
       "Supportive, tailored talk therapy that fits your goals, lifestyle, and path toward well-being.",
-    href: `#${BOOKING_SECTION_ID}`,
-    cta: "Book your Free Consultation",
+    href: `#${FORM_SECTION_ID}`,
+    cta: "Find out if you Qualify",
   },
 ] as const;
 
@@ -138,11 +138,6 @@ export const FAQ_ITEMS = [
     question: "Do you accept insurance?",
     answer:
       "Insurance participation varies by location. Contracted insurance is currently accepted at Pleasant Hill; Solana Beach and telepsychiatry also offer clear cash-pay options. Our team can help you understand coverage, costs, and what to expect before you begin.",
-  },
-  {
-    question: "Is telepsychiatry available in my state?",
-    answer:
-      "We offer secure telepsychiatry visits for patients in California, Oregon, and New York. Virtual care can include psychiatry and therapy support from home, depending on your needs and clinical appropriateness.",
   },
 ] as const;
 

@@ -58,7 +58,7 @@ export default function FAQ() {
     <section id="faq" className="jv-section bg-warm-100" aria-labelledby="faq-heading">
       <div className="container-main">
         <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-14">
-          <div className="lg:sticky lg:top-28">
+          <div className="text-center lg:sticky lg:top-28 lg:text-left">
             <p className="section-eyebrow">FAQ</p>
             <h2 id="faq-heading" className="mt-3 text-3xl sm:text-4xl lg:text-[2.75rem]">
               Questions, answered clearly
@@ -67,7 +67,7 @@ export default function FAQ() {
               Straightforward answers about consultations, TMS, insurance, and
               telepsychiatry, with no guarantees of outcomes.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap lg:justify-start">
               <BookButton />
               <CallButton />
             </div>

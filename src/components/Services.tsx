@@ -18,7 +18,7 @@ export default function Services() {
           {SERVICES.map((service, index) => (
             <article
               key={service.id}
-              className="jv-fade-up grid gap-4 py-8 sm:grid-cols-[4.5rem_minmax(0,1fr)_auto] sm:items-center sm:gap-8"
+              className="jv-fade-up grid gap-3 py-8 text-center sm:grid-cols-[4.5rem_minmax(0,1fr)_auto] sm:items-center sm:gap-8 sm:text-left"
               style={{ animationDelay: `${index * 70}ms` }}
             >
               <span
@@ -27,15 +27,15 @@ export default function Services() {
               >
                 0{index + 1}
               </span>
-              <div>
+              <div className="mx-auto max-w-xl sm:mx-0">
                 <h3 className="text-2xl sm:text-[1.65rem]">{service.title}</h3>
-                <p className="mt-2 max-w-xl text-base leading-relaxed text-ink-500">
+                <p className="mt-2 text-base leading-relaxed text-ink-500">
                   {service.benefit}
                 </p>
               </div>
               <a
                 href={service.href}
-                className="inline-flex items-center gap-2 text-sm font-bold text-brand-600 transition hover:text-brand-700 sm:justify-self-end"
+                className="inline-flex items-center justify-center gap-2 text-sm font-bold text-brand-600 transition hover:text-brand-700 sm:justify-self-end"
               >
                 {service.cta}
                 <ArrowIcon />

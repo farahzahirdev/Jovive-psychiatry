@@ -17,7 +17,7 @@ export default function TrustBar() {
       />
 
       <div className="container-main relative">
-        <div className="jv-fade-up grid items-center gap-10 border-l-2 border-brand-500 pl-6 sm:pl-8 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.25fr)] lg:gap-16">
+        <div className="jv-fade-up jv-trust-layout grid items-center gap-10 border-l-2 border-brand-500 pl-6 sm:pl-8 lg:grid-cols-[minmax(0,0.75fr)_minmax(0,1.25fr)] lg:gap-16">
           <Image
             src={IMAGES.vituity}
             alt="Vituity and Jovive"
@@ -25,7 +25,7 @@ export default function TrustBar() {
             height={80}
             className="h-12 w-auto max-w-full sm:h-14"
           />
-          <div>
+          <div className="jv-trust-copy">
             <p className="section-eyebrow">Partnership</p>
             <h2 className="mt-3 text-2xl sm:text-3xl">Part of Vituity</h2>
             <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-500 sm:text-lg">

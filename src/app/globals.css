@@ -123,6 +123,56 @@ li {
   @apply mx-auto max-w-content px-4 sm:px-6 lg:px-8;
 }
 
+/* Mobile: center headlines and body copy across marketing sections */
+@media (max-width: 1023px) {
+  .jv-section :is(h1, h2, h3, .section-eyebrow, .text-lead),
+  .jv-section .jv-mobile-copy,
+  #tms .jv-fade-up.order-1,
+  #locations .jv-fade-up,
+  #faq .lg\:sticky,
+  .jv-trust-copy,
+  .why-point-copy {
+    text-align: center;
+  }
+
+  #tms .jv-fade-up.order-1 .mt-8,
+  #faq .lg\:sticky .mt-8 {
+    justify-content: center;
+  }
+
+  .contact-list {
+    text-align: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .jv-trust-layout {
+    border-left-width: 0;
+    padding-left: 0;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .jv-trust-layout img {
+    margin-inline: auto;
+  }
+
+  .why-point-copy {
+    margin-inline: auto;
+  }
+
+  .faq-trigger {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .faq-panel-inner p {
+    text-align: center;
+  }
+}
+
 @keyframes fade-up {
   from {
     opacity: 0;

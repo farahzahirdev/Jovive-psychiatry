@@ -87,7 +87,7 @@ export default function WhyJovive() {
               className="relative z-10 flex h-full min-h-[28rem] items-center px-6 py-12 sm:min-h-[32rem] sm:px-10 sm:py-14 lg:min-h-[36rem] lg:px-14"
               aria-live="polite"
             >
-              <div key={active} className="why-point-copy max-w-md lg:max-w-lg">
+              <div key={active} className="why-point-copy mx-auto max-w-md text-center lg:mx-0 lg:max-w-lg lg:text-left">
                 <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-500">
                   0{active + 1}
                 </p>
