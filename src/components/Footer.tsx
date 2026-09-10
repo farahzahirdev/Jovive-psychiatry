@@ -19,8 +19,8 @@ export default function Footer() {
             className="h-9 w-auto brightness-0 invert"
           />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-200">
-            Personalized mental health care — therapy, medication management, and
-            BrainsWay TMS — empowering minds toward comprehensive well-being.
+            Personalized mental health care with therapy, medication management, and
+            BrainsWay TMS, empowering minds toward comprehensive well-being.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="container-main flex flex-col gap-2 py-5 text-xs text-ink-300 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} Jovive Psychiatry. Part of Vituity. For
-            informational purposes only — not a guarantee of outcomes.
+            informational purposes only, not a guarantee of outcomes.
           </p>
           <p>HIPAA-conscious care · Empowering Minds, Embracing Mental Health</p>
         </div>

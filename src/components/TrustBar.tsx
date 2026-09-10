@@ -31,7 +31,7 @@ export default function TrustBar() {
             <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-500 sm:text-lg">
               Jovive Psychiatry is part of Vituity, a physician-owned and -led
               multispecialty partnership. For 50 years, Vituity has raised the
-              standard of care — with 8,000+ clinicians serving millions of
+              standard of care, with 8,000+ clinicians serving millions of
               patients nationwide.
             </p>
           </div>

@@ -10,7 +10,7 @@ export default function Services() {
             Care that fits your life
           </h2>
           <p className="text-lead mt-4">
-            Three paths toward well-being — tailored to your needs, goals, and schedule.
+            Three paths toward well-being, tailored to your needs, goals, and schedule.
           </p>
         </div>
 

@@ -34,7 +34,7 @@ export default function FinalCTA() {
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-white/90">
               Book a free consultation, see if TMS may be right for you, or call our
-              team. Warm guidance — no pressure.
+              team. Warm guidance, no pressure.
             </p>
             <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap">
               <BookButton variant="accent" />

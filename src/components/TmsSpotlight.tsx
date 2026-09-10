@@ -32,7 +32,7 @@ export default function TmsSpotlight() {
             </p>
             <p className="mt-4 text-base leading-relaxed text-ink-300">
               Individual results vary. Eligibility is determined through a clinical
-              evaluation — with no pressure and no guarantees of outcomes.
+              evaluation, with no pressure and no guarantees of outcomes.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">

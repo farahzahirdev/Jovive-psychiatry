@@ -65,7 +65,7 @@ export default function FAQ() {
             </h2>
             <p className="text-lead mt-4">
               Straightforward answers about consultations, TMS, insurance, and
-              telepsychiatry — with no guarantees of outcomes.
+              telepsychiatry, with no guarantees of outcomes.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <BookButton />

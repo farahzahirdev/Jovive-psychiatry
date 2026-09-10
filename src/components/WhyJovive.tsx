@@ -36,7 +36,7 @@ export default function WhyJovive() {
             Care that meets you where you are
           </h2>
           <p className="text-lead mt-4">
-            Warm, stigma-free support with flexible in-person and telepsychiatry options —
+            Warm, stigma-free support with flexible in-person and telepsychiatry options,
             built around continuity, clarity, and sustainable progress.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

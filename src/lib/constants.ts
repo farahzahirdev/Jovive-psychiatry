@@ -60,7 +60,7 @@ export const SERVICES = [
     id: "tms",
     title: "TMS Therapy",
     benefit:
-      "Non-invasive BrainsWay TMS for depression and related conditions — without systemic medication side effects.",
+      "Non-invasive BrainsWay TMS for depression and related conditions, without systemic medication side effects.",
     href: `#${FORM_SECTION_ID}`,
     cta: "Find out if you Qualify",
   },
@@ -88,12 +88,12 @@ export const VALUE_PROPS = [
     description:
       "In-person visits in California and telepsychiatry across California, Oregon, and New York.",
     image: "/images/hero.png",
-    imageAlt: "Warm, hopeful moment — flexible in-person and virtual care",
+    imageAlt: "Warm, hopeful moment with flexible in-person and virtual care",
   },
   {
     title: "Trusted Care",
     description:
-      "Consistent appointments with your dedicated psychiatrist — fostering continuity, trust, and collaborative support.",
+      "Consistent appointments with your dedicated psychiatrist, fostering continuity, trust, and collaborative support.",
     image: IMAGES.why1,
     imageAlt: "Patient smiling during a calm moment at home",
   },
@@ -107,7 +107,7 @@ export const VALUE_PROPS = [
   {
     title: "Proactive Mental Health",
     description:
-      "Early intervention and lifestyle-integrated plans designed for sustainable well-being — not just crisis response.",
+      "Early intervention and lifestyle-integrated plans designed for sustainable well-being, not just crisis response.",
     image: IMAGES.why3,
     imageAlt: "Thoughtful adult reflecting on next steps in care",
   },
@@ -117,12 +117,12 @@ export const FAQ_ITEMS = [
   {
     question: "Who is Jovive Psychiatry for?",
     answer:
-      "Adults seeking support for depression, anxiety, ADHD, OCD, PTSD, bipolar disorder, and related concerns. We offer therapy, medication management, and — at our Pleasant Hill location — BrainsWay TMS. Care is available in person or via telepsychiatry in California, Oregon, and New York.",
+      "Adults seeking support for depression, anxiety, ADHD, OCD, PTSD, bipolar disorder, and related concerns. We offer therapy, medication management, and BrainsWay TMS at our Pleasant Hill location. Care is available in person or via telepsychiatry in California, Oregon, and New York.",
   },
   {
     question: "How do I book a free consultation?",
     answer:
-      "Use the booking calendar on this page, call (925) 248-3432, or submit the inquiry form. A free consultation is a chance to discuss your goals and options — it does not guarantee a specific treatment or outcome.",
+      "Use the booking calendar on this page, call (925) 248-3432, or submit the inquiry form. A free consultation is a chance to discuss your goals and options. It does not guarantee a specific treatment or outcome.",
   },
   {
     question: "What is TMS, and who might it help?",
@@ -151,7 +151,7 @@ export const PROVIDERS = [
     name: "Roshanak Ramezani, MD",
     role: "Psychiatrist",
     image: "/images/provider-ramezani.webp",
-    bio: "Trained in acute care, substance use, HIV psychiatry, and geriatric psychiatry — delivering culturally sensitive care for patients and families.",
+    bio: "Trained in acute care, substance use, HIV psychiatry, and geriatric psychiatry, delivering culturally sensitive care for patients and families.",
   },
   {
     name: "Herbert Harman, MD",

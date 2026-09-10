@@ -19,7 +19,7 @@ export default function Providers() {
             Meet our providers
           </h2>
           <p className="text-lead mt-4">
-            Experienced psychiatrists dedicated to compassionate, personalized care —
+            Experienced psychiatrists dedicated to compassionate, personalized care
             in clinic and through telepsychiatry.
           </p>
         </div>

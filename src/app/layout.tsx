@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Jovive Psychiatry | Empowering Minds, Embracing Mental Health",
   description:
-    "Personalized mental health care — therapy, medication management, and BrainsWay TMS — in Pleasant Hill, Solana Beach, and via telepsychiatry in CA, OR, and NY. Book your free consultation.",
+    "Personalized mental health care with therapy, medication management, and BrainsWay TMS in Pleasant Hill, Solana Beach, and via telepsychiatry in CA, OR, and NY. Book your free consultation.",
   icons: {
     icon: "/images/favicon.png",
     shortcut: "/images/favicon.png",

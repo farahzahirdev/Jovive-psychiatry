@@ -67,7 +67,7 @@ export default function BookingCalendar() {
                 Book your Free Consultation
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-ink-500 lg:mx-0">
-                Pick a time that works for you. No obligation — just a conversation about
+                Pick a time that works for you. No obligation, just a conversation about
                 the care path that fits your life.
               </p>
               <p className="mx-auto mt-3 max-w-xl text-sm text-ink-400 lg:mx-0">

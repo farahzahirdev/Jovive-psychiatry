@@ -50,7 +50,7 @@ export default function Hero() {
             </h1>
 
             <p className="jv-austin-subhead">
-              Personalized therapy, medication management, and BrainsWay TMS — in
+              Personalized therapy, medication management, and BrainsWay TMS in
               person or virtually across California, Oregon, and New York.
             </p>
 
