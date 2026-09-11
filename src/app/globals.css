@@ -141,11 +141,20 @@ li {
   }
 
   .contact-list {
-    text-align: center;
+    width: min(100%, 22.5rem);
+    margin-inline: auto;
+    text-align: left;
   }
 
   .contact-item {
-    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-item > span:last-child {
+    text-align: left;
+    min-width: 0;
   }
 
   .jv-trust-layout {
@@ -727,12 +736,20 @@ a.contact-item:hover {
   display: flex;
   height: 2.5rem;
   width: 2.5rem;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
   border-radius: 0.75rem;
   background: var(--color-brand-100);
   color: var(--color-brand-600);
+}
+
+.contact-icon svg {
+  display: block;
+  height: 1rem;
+  width: 1rem;
 }
 
 /* FAQ accordion */

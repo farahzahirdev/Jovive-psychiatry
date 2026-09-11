@@ -74,7 +74,7 @@ export default function InquiryForm() {
               Prefer to talk first? Call our team directly.
             </p>
 
-            <ul className="contact-list text-center lg:text-left">
+            <ul className="contact-list">
               <li>
                 <a href={PHONE_HREF} className="contact-item group">
                   <span className="contact-icon">
@@ -84,7 +84,7 @@ export default function InquiryForm() {
                     <span className="block text-xs font-bold uppercase tracking-wider text-brand-600">
                       Phone
                     </span>
-                    <span className="mt-0.5 block font-medium text-ink-800 group-hover:text-brand-600">
+                    <span className="mt-0.5 block text-sm font-medium leading-relaxed text-ink-800 group-hover:text-brand-600">
                       {PHONE_NUMBER}
                     </span>
                   </span>

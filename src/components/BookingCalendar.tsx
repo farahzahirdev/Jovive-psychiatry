@@ -86,7 +86,7 @@ export default function BookingCalendar() {
               <CallButton />
             </div>
 
-            <ul className="contact-list text-center lg:text-left">
+            <ul className="contact-list">
               {LOCATIONS.map((location) => (
                 <li key={location.name}>
                   {location.mapsUrl ? (
